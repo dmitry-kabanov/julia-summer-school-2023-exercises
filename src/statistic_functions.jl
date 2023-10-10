@@ -26,7 +26,7 @@ end
 ## Test case rse_std(1:3) == 1
 #---
 
-function rse_tstat(arr; σ=rse_std(arr))
+function rse_tstat(arr; σ = rse_std(arr))
     return rse_mean(arr) / (σ / sqrt(length(arr)))
 end
 ## Test case: rse_tstat(2:3) == 5
