@@ -1,0 +1,10 @@
+name = "MyStatsPackage"
+uuid = "210034a8-848c-49d8-9d74-b60754552130"
+authors = ["Dmitry Kabanov <kabanov.dmitry@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+[compat]
+ProgressMeter = "1"
